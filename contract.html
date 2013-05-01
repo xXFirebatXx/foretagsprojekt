@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>East Empire Company</title>
+    <meta name="description" content="">
+    <!-- link href="reset.css" rel="stylesheet" type="text/css" / -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="bilder/favicon.ico" />
+    <script type="text/javascript">
+      function changeCSS(cssFile, cssLinkIndex) {
+      
+      var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+      
+      var newlink = document.createElement("link")
+      newlink.setAttribute("rel", "stylesheet");
+      newlink.setAttribute("type", "text/css");
+      newlink.setAttribute("href", cssFile);
+      
+      document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+      }
+    </script>
+  </head>
+
+  <body>
+	
+    <div id="wrapper">
+      <div id="header">
+	<h1>East Empire Company</h1>
+      </div>
+ 
+      <div id="box">
+	<a class="stylechange1" href="#" onclick="changeCSS('style.css', 0);">Classic font</a> 
+	<a class="stylechange2" href="#" onclick="changeCSS('style2.css', 0);">Easy font</a>
+      </div>
+
+      <nav id="nav">
+    	<ul id="navigation">
+          <li><a href="index.html" class="first">Introduction</a></li>
+	  <li><a href="history.html">History</a></li>
+          <li><a href="#">More &raquo;</a>
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="tou.html">Terms of use</a></li>                 
+            </ul>
+          </li>
+        </ul>	 
+      </nav>
+      
+      <div id="content">
+	
+	
+	<h3>Contact</h3>
+	<p class="column_left">
+	  
+	  
+	 To contact us, you can visit our different headquarters and offices scattered across Tamriel. The locations are following: Ebonheart, Caldera, Fort Frostmoth, Solitude, Windhelm and Solstheim (Raven Rock).
+
+	</p>
+
+	<p class="column_right">
+	  
+
+	  
+	  
+	</p>
+	
+
+
+
+      </div>
+      
+      
+      <div id="footer">
+	&copy; Gabriel Törnkvist 2013 | Bilderna är tillåtna att användas enligt; 1960:729, 2§
+      </div>
+    </div>
+    
+    
+    
+  </body>
+  
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>East Empire Company</title>
+    <meta name="description" content="">
+    <!-- link href="reset.css" rel="stylesheet" type="text/css" / -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="bilder/favicon.ico" />
+    <script type="text/javascript">
+      function changeCSS(cssFile, cssLinkIndex) {
+      
+      var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+      
+      var newlink = document.createElement("link")
+      newlink.setAttribute("rel", "stylesheet");
+      newlink.setAttribute("type", "text/css");
+      newlink.setAttribute("href", cssFile);
+      
+      document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+      }
+    </script>
+  </head>
+
+  <body>
+	
+    <div id="wrapper">
+      <div id="header">
+	<h1>East Empire Company</h1>
+      </div>
+      
+      <div id="box">
+	<a class="stylechange1" href="#" onclick="changeCSS('style.css', 0);">Classic font</a> 
+	<a class="stylechange2" href="#" onclick="changeCSS('style2.css', 0);">Easy font</a>
+      </div>
+
+      <nav id="nav">
+    	<ul id="navigation">
+          <li><a href="index.html" class="first">Introduction</a></li>
+	  <li><a href="#">History</a></li>
+          <li><a href="#">More &raquo;</a>
+            <ul>
+              <li><a href="contract.html">Contact</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="tou.html">Terms of use</a></li>                 
+            </ul>
+          </li>
+        </ul>	 
+      </nav>
+      
+      <div id="content">
+	
+	
+	<h3>History</h3>
+	<p class="column_left">
+	  
+	  
+	 The emperor wanted a reliable company to take care of the trading across the east provinces of Tamriel. The East Empire Company was founded to take care of this. Funded by the emperor himself, our company have for decades handled and delivered goods all across Tamriel. With this in mind, we are also the leading force behind economical and employment stability. We are determined to keep our services running for many years to come, so don't be hesitant to leave your valuable goods in our hands.
+
+	</p>
+	
+
+      </div>
+      
+      
+      <div id="footer">
+	&copy; Gabriel Törnkvist 2013 | Bilderna är tillåtna att användas enligt; 1960:729, 2§
+      </div>
+    </div>
+    
+    
+    
+  </body>
+  
+</html>

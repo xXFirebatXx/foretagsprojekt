@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>East Empire Company</title>
+    <meta name="description" content="">
+    <!-- link href="reset.css" rel="stylesheet" type="text/css" / -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <link rel="shortcut icon" href="bilder/favicon.ico" />
+    <script type="text/javascript">
+      function changeCSS(cssFile, cssLinkIndex) {
+ 
+      var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+      
+      var newlink = document.createElement("link")
+      newlink.setAttribute("rel", "stylesheet");
+      newlink.setAttribute("type", "text/css");
+      newlink.setAttribute("href", cssFile);
+      
+      document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+      }
+    </script>
+  </head>
+
+  <body>
+	
+    <div id="wrapper">
+      <div id="header">
+	<h1>East Empire Company</h1>
+      </div>
+
+	  <div id="box">
+	    <a class="stylechange1" href="#" onclick="changeCSS('style.css', 0);">Classic font</a> 
+	    <a class="stylechange2" href="#" onclick="changeCSS('style2.css', 0);">Easy font</a>
+	  </div>
+ 
+      <nav id="nav">
+    	<ul id="navigation">
+          <li><a href="#" class="first">Introduction</a></li>
+	  <li><a href="history.html">History</a></li>
+          <li><a href="#">More &raquo;</a>
+            <ul>
+              <li><a href="contract.html">Contact</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="tou.html">Terms of use</a></li>                 
+            </ul>
+          </li>
+        </ul>	 
+      </nav>
+      
+      <div id="content">
+	
+	
+	<h3>Introduction</h3>
+	<p class="column_left">
+	  
+	  
+	 The East Empire Company is a merchant organization. The Company has a monopoly on multiple trade goods—including Raw Ebony, Raw Glass, and Stalhrim—Dwemer artifacts, and Flin. It controlled the import and export of multiple goods to and from Vvardenfell, like Kwama Eggs, Marshmerrow pulp, Saltrice, and Telvanni Bug Musk. It was commissioned by the Emperor and is controlled by a group of individuals he appointed, which, in addition to the Company's wealth, makes it relatively powerful,
+
+	</p>
+
+	<p class="column_right">
+	  
+	  with its influence having affected even the administration of the Duke of Vvardenfell. The company had two major offices in Morrowind, with one in the harbor town of Ebonheart—governed by Duke Vedam Dren—and the other in Fort Frostmoth, on the island of Solstheim, having established a colony at Raven Rock based around the Ebony mine. The company has a strong presence in the city of Solitude in Skyrim, with the headquarters being located in Windhelm.
+	  
+
+
+	</p>
+
+
+
+      </div>
+      
+      
+      <div id="footer">
+	&copy; Gabriel Törnkvist 2013 | Bilderna är tillåtna att användas enligt; 1960:729, 2§
+      </div>
+    </div>
+    
+    
+    
+  </body>
+  
+</html>
+
